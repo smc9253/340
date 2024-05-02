@@ -1,0 +1,15 @@
+.degreeList {
+    margin: 20px 0px 20px 0px;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+.degreeListItem {
+    padding: 5px 0px;
+}
+
+h4, .degreeListDescription, .degreeListConcentration {
+    text-align: left;
+}

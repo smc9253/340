@@ -1,0 +1,33 @@
+.container {
+    background: rgba(166, 166, 166, 0.444);
+    border-radius: 10px;
+    margin-top: 1.5em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1.5em;
+}
+
+.socials, .links {
+    width: 50%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+}
+
+.copyright {
+    padding: 1.5em;
+}
+
+.copyright::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 25%;
+    margin: auto;
+    width: 80%;
+    border-top: 2px solid #8517aa;
+}
